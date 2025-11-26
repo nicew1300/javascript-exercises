@@ -1,7 +1,7 @@
 function reverseString(string) {
     let arr = string.split("")
-    let reversed = arr.reverse().join("")
-    return reversed
+    let reversedJoined = arr.reverse().join("")
+    return reversedJoined
 }
 
 console.log(reverseString("hello"))
